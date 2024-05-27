@@ -53,10 +53,9 @@ about_content: | # this will include new lines to allow paragraphs
 
 content:
   - title: 📃 Publications
-    layout: text
-    content: |
-      [Fine-tuning Neural Network for Improving Video Classification Performance Using Vision Transfomer](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11550771)   
-      Published in Institute of Korean Electrical and Electronics Engineers, 2023   
+    layout: list
+    content:
+      - layout: left
 
   - title: 🏫 Education # Title for the section
     layout: list # Type of content section (list/text)
