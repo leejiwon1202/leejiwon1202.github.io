@@ -31,7 +31,7 @@ linkedin_username: leejiwon1202
 # Additional icon links
 additional_links:
 - title: blog
-  icon: fas fa-house
+  icon: fas fa-globe
   url: https://happy-support.tistory.com/
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
