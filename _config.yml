@@ -60,13 +60,13 @@ content:
         caption: Mar 2024 - present
         sub_title: Ph.D. in Computer Science
         description: | # this will include new lines to allow paragraphs
-          I am studying multimodal under the guidance of Prof. Han.
+          I am currently studying Multimodal Deep Learning.
       - layout: left
         title: Seokyeong University
         caption: Mar 2020 - Feb 2024
         sub_title: B.S. in Computer Engineering
         description: | # this will include new lines to allow paragraphs
-          I have taken courses in programming languages, AI, algorithms, and other computer science subjects.   
+          I took courses on programming languages, AI, algorithms, and other subjects.   
           I graduated with highest honor from the University of Science and Technology (GPA:4.45/4.50).   
           I studied computer vision as an undergraduate student researcher (Mar 2023 - Feb 2024). 
           
@@ -86,9 +86,10 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: 2022 Mini Drone Autonomous Flight Competition
-        link: https://github.com/leejiwon1202/2022_Drone_Competition_Doodoorone.git
-        # link_text: Project Website
+        title: Mini Drone Autonomous Flight Competition
+        caption: Apr 2022 - Jul 2022
+        link: https://github.com/leejiwon1202/2022_Drone_Competition_Doodoorone
+        ink_text: Competition Github
         # additional_links:
         #   - title:  sproogen/modern-resume-theme
         #     icon: fab fa-github
@@ -98,21 +99,38 @@ content:
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         description: | # this will include new lines to allow paragraphs
           The objective of this competition is for a drone programmed in MATLAB language to successfully navigate a given specification of a stadium.
-          I got silver award in autonomous flight and best technical presentation award
+          Our team got silver award in autonomous flight and best technical presentation award
 
-
-
+  - title: 💻 Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Web Project for Single-person Households
+        caption: Jun 2022 - Nov 2022
+        link: https://github.com/leejiwon1202/2022_Web_Project_footprints
+        link_text: Project Github
+        # additional_links:
+        #   - title:  sproogen/modern-resume-theme
+        #     icon: fab fa-github
+        #     url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        description: | # this will include new lines to allow paragraphs
+          Our team created a webpage for sharing delivery fees among single-person households.
+          I was responsible for screen design and publishing, event handling, chat functionality using Socket, and address data processing using the Kakao Map API.
+          
+          
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      Alongside my interests in Multimodal Deep Learning some of my other interests and hobbies are:
+      - 🚗 I was active as a member of the photo/travel club's organizing team (Mar 2023 - Dec 2023). 
+      - 🏃 I really enjoy walking, running, and cycling.
+      - 📚 I usually spend my free time reading books.
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      # Look at this cool image  
+      # ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
