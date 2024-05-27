@@ -31,7 +31,7 @@ linkedin_username: leejiwon1202
 # Additional icon links
 additional_links:
 - title: blog
-  icon: fa-solid fa-house
+  icon: https://fontawesome.com/icons/house?f=classic&s=solid
   url: https://happy-support.tistory.com/
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
@@ -47,7 +47,7 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I am a student researcher at KIST and Ph.D. student at [Yonsei University Theory of Computation Lab](https://toc.yonsei.ac.kr/).   
+  I am a student researcher at KIST and Ph.D. student at [Yonsei University Theory of Computation Lab](https://toc.yonsei.ac.kr/) under the supervision of Prof. Yosub Han.   
   My primary research interest is Multimodal Deep Learning.   
 # , especially 뭐시기 뭐시기. I am currently interested in @.   
 
@@ -88,8 +88,8 @@ content:
       - layout: left
         title: Mini Drone Autonomous Flight Competition
         caption: Apr 2022 - Jul 2022
-        link: https://github.com/leejiwon1202/2022_Drone_Competition_Doodoorone
-        ink_text: Competition Github
+        llink: https://github.com/leejiwon1202/2022_Drone_Competition_Doodoorone
+        link_text: Competition Github
         # additional_links:
         #   - title:  sproogen/modern-resume-theme
         #     icon: fab fa-github
@@ -120,7 +120,6 @@ content:
           Our team created a webpage for sharing delivery fees among single-person households.
           I was responsible for screen design and publishing, event handling, chat functionality using Socket, and address data processing using the Kakao Map API.
           
-          
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
@@ -129,8 +128,6 @@ content:
       - 🏃 I really enjoy walking, running, and cycling.
       - 📚 I usually spend my free time reading books.
 
-      # Look at this cool image  
-      # ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
