@@ -31,7 +31,7 @@ linkedin_username: leejiwon1202
 # Additional icon links
 additional_links:
 - title: blog
-  icon: fas house
+  icon: fas fa-house
   url: https://happy-support.tistory.com/
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
@@ -51,14 +51,13 @@ about_content: | # this will include new lines to allow paragraphs
   My primary research interest is Multimodal Deep Learning.   
 # , especially 뭐시기 뭐시기. I am currently interested in @.   
 
-content: 
-  - title: 📃 Publications
-    layour: text
-    content:
-      [Fine-tuning Neural Network for Improving Video Classification Performance Using Vision Transfomer](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11550771)
-      Published in Institute of Korean Electrical and Electronics Engineers, 2023
-
 content:
+  - title: 📃 Publications
+    layout: text
+    content:
+      [Fine-tuning Neural Network for Improving Video Classification Performance Using Vision Transfomer](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11550771)   
+      Published in Institute of Korean Electrical and Electronics Engineers, 2023   
+      
   - title: 🏫 Education # Title for the section
     layout: list # Type of content section (list/text)
     content:  
@@ -150,14 +149,12 @@ content:
           Students who are eager to delve deeper into deep learning participated in the study sessions, and we held weekly team presentations where each group summarized and presented what they had studied during the week.   
           We also conducted a project where team members collected pictures of rock-paper-scissors gestures to create a classification model with high accuracy.   
           
-          
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
       - 🚗 I was active as a member of the photo/travel club's organizing team (Mar 2023 - Dec 2023). 
       - 🏃 I really enjoy walking, running, and cycling.
       - 📚 I usually spend my free time reading books.
-
 
 # Footer
 footer_show_references: true
@@ -172,3 +169,4 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+ 
