@@ -52,42 +52,15 @@ about_content: | # this will include new lines to allow paragraphs
 # , especially 뭐시기 뭐시기. I am currently interested in @.   
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
-
   - title: 🏫 Education # Title for the section
     layout: list # Type of content section (list/text)
-    content:
+    content:  
+      - layout: left
+        title: Yonsei University
+        caption: Mar 2024 - present
+        sub_title: Ph.D. in Computer Science
+        description: | # this will include new lines to allow paragraphs
+          I am studying multimodal under the guidance of Prof. Han.
       - layout: left
         title: Seokyeong University
         caption: Mar 2020 - Feb 2024
@@ -95,7 +68,39 @@ content:
         description: | # this will include new lines to allow paragraphs
           I have taken courses in programming languages, AI, algorithms, and other computer science subjects.   
           I graduated with highest honor from the University of Science and Technology (GPA:4.45/4.50).   
-          I studied computer vision as an undergraduate student researcher (Mar 2023 - Feb 2024).   
+          I studied computer vision as an undergraduate student researcher (Mar 2023 - Feb 2024). 
+          
+  - title: 💼 Work Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Hdmedi
+        # link_text: boringcompany.com
+        sub_title: Data Analyst
+        caption: Dec 2022 - Jan 2023
+        description: | # this will include new lines to allow paragraphs
+            I crawled pharmaceutical data using Python libraries BeautifulSoup, Scrapy, and Selenium.   
+            I preprocessed and analyzed data using SQL, and proceeded to input it into the company's database.
+
+  - title: 🏆️ Awards # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: 2022 Mini Drone Autonomous Flight Competition
+        link: https://github.com/leejiwon1202/2022_Drone_Competition_Doodoorone.git
+        # link_text: Project Website
+        # additional_links:
+        #   - title:  sproogen/modern-resume-theme
+        #     icon: fab fa-github
+        #     url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        description: | # this will include new lines to allow paragraphs
+          The objective of this competition is for a drone programmed in MATLAB language to successfully navigate a given specification of a stadium.
+          I got silver award in autonomous flight and best technical presentation award
+
+
 
   - title: A Little More About Me
     layout: text
