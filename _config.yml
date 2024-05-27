@@ -54,10 +54,9 @@ about_content: | # this will include new lines to allow paragraphs
 content: 
   - title: 📃 Publications
     layour: text
-    content: 
-      - layout: left
-      - title: ABCEFG
-        caption: 2024
+    content:
+      [Fine-tuning Neural Network for Improving Video Classification Performance Using Vision Transfomer](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11550771)
+      Published in Institute of Korean Electrical and Electronics Engineers, 2023
 
 content:
   - title: 🏫 Education # Title for the section
