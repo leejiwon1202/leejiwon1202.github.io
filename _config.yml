@@ -51,6 +51,14 @@ about_content: | # this will include new lines to allow paragraphs
   My primary research interest is Multimodal Deep Learning.   
 # , especially 뭐시기 뭐시기. I am currently interested in @.   
 
+content: 
+  - title: 📃 Publications
+    layour: text
+    content: 
+      - layout: left
+      - title: ABCEFG
+        caption: 2024
+
 content:
   - title: 🏫 Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -73,6 +81,14 @@ content:
   - title: 💼 Work Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
+    - layout: left
+        title: KIST
+        # link_text: boringcompany.com
+        sub_title: Student Researcher
+        caption: Mar 2024 - present
+        description: | # this will include new lines to allow paragraphs
+            I am studying AI at the Center for Opto-Electronic Materials and Devices.
+            I am responsible for researching artificial intelligence models required for project tasks and implementing programs.
       - layout: left
         title: Hdmedi
         # link_text: boringcompany.com
@@ -88,7 +104,7 @@ content:
       - layout: left
         title: Mini Drone Autonomous Flight Competition
         caption: Apr 2022 - Jul 2022
-        llink: https://github.com/leejiwon1202/2022_Drone_Competition_Doodoorone
+        link: https://github.com/leejiwon1202/2022_Drone_Competition_Doodoorone
         link_text: Competition Github
         # additional_links:
         #   - title:  sproogen/modern-resume-theme
@@ -98,8 +114,8 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         description: | # this will include new lines to allow paragraphs
-          The objective of this competition is for a drone programmed in MATLAB language to successfully navigate a given specification of a stadium.
-          Our team got silver award in autonomous flight and best technical presentation award
+          The objective of this competition is for a drone programmed in MATLAB language to successfully navigate a given specification of a stadium.   
+          Our team got silver award in autonomous flight and best technical presentation award.   
 
   - title: 💻 Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -117,8 +133,8 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         description: | # this will include new lines to allow paragraphs
-          Our team created a webpage for sharing delivery fees among single-person households.
-          I was responsible for screen design and publishing, event handling, chat functionality using Socket, and address data processing using the Kakao Map API.
+          Our team created a webpage for sharing delivery fees among single-person households.   
+          I was responsible for screen design and publishing, event handling, chat functionality using Socket, and address data processing using the Kakao Map API.   
       - layout: left
         title: Deep Learning Study
         caption: Jan 2022
@@ -132,8 +148,8 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         description: | # this will include new lines to allow paragraphs
-          Students who are eager to delve deeper into deep learning participated in the study sessions, and we held weekly team presentations where each group summarized and presented what they had studied during the week.
-          We also conducted a project where team members collected pictures of rock-paper-scissors gestures to create a classification model with high accuracy.
+          Students who are eager to delve deeper into deep learning participated in the study sessions, and we held weekly team presentations where each group summarized and presented what they had studied during the week.   
+          We also conducted a project where team members collected pictures of rock-paper-scissors gestures to create a classification model with high accuracy.   
           
           
   - title: A Little More About Me
