@@ -47,7 +47,7 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I am a student researcher at KIST and Ph.D. student at (Yonsei University Theory of Computation Lab)[https://toc.yonsei.ac.kr/].   
+  I am a student researcher at KIST and Ph.D. student at [Yonsei University Theory of Computation Lab](https://toc.yonsei.ac.kr/).   
   My primary research interest is Multimodal Deep Learning.   
 # , especially 뭐시기 뭐시기. I am currently interested in @.   
 
