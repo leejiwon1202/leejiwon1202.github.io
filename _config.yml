@@ -31,7 +31,7 @@ linkedin_username: leejiwon1202
 # Additional icon links
 additional_links:
 - title: blog
-  icon: https://fontawesome.com/icons/house?f=classic&s=solid
+  icon: fas house
   url: https://happy-support.tistory.com/
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
@@ -105,7 +105,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Web Project for Single-person Households
+        title: Web Project
         caption: Jun 2022 - Nov 2022
         link: https://github.com/leejiwon1202/2022_Web_Project_footprints
         link_text: Project Github
@@ -123,7 +123,6 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in Multimodal Deep Learning some of my other interests and hobbies are:
       - 🚗 I was active as a member of the photo/travel club's organizing team (Mar 2023 - Dec 2023). 
       - 🏃 I really enjoy walking, running, and cycling.
       - 📚 I usually spend my free time reading books.
