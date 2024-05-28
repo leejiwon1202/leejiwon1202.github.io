@@ -84,7 +84,7 @@ content:
         sub_title: Student Researcher
         caption: Mar 2024 - present
         description: | # this will include new lines to allow paragraphs
-            I am studying AI at the Center for Opto-Electronic Materials and Devices.
+            I am studying AI at the Center for Opto-Electronic Materials and Devices.   
             I am responsible for researching artificial intelligence models required for project tasks and implementing programs.
       - layout: left
         title: Hdmedi
@@ -131,7 +131,7 @@ content:
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         description: | # this will include new lines to allow paragraphs
           Our team created a webpage for sharing delivery fees among single-person households.   
-          I was responsible for screen design and publishing, event handling, chat functionality using Socket, and address data processing using the Kakao Map API.   
+          I was responsible for screen design and publishing, event handling, chat functionality using Socket, and address map data processing using Kakao Map API.   
       - layout: left
         title: Deep Learning Study
         caption: Jan 2022
